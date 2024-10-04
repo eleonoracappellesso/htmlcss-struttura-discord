@@ -1,0 +1,21 @@
+/* general */
+:root {
+    --bg-blue: #255EE9;
+    --bg-grey: #F6F6F6;
+    --bg-dark: #23272A;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Whitney' , 'Helvetica Neue' , 'Helvetica' , 'Arial' , sans-serif;
+}
+
+.debug {
+    border: 1px solid #4fef8c;
+}
