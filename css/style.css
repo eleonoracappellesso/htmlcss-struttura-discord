@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Whitney' , 'Helvetica Neue' , 'Helvetica' , 'Arial' , sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .debug {
@@ -32,17 +32,48 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .container-s {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
+
 /*header*/
 
 header {
     background-color: var(--bg-blue);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: space-between;
+}
+
+/* main */
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.image {
+    width: 60%;
+}
+
+.content {
+    width: 40%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 /* footer */
