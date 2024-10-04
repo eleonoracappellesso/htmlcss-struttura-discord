@@ -46,13 +46,16 @@ header {
     background-color: var(--bg-blue);
 }
 
+header ul li {
+    padding: 6px 10px;
+}
+
 ul {
     list-style: none;
 }
 
 li {
     display: flex;
-    align-items: space-between;
 }
 
 /* main */
