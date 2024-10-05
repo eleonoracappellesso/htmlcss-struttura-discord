@@ -4,6 +4,7 @@
     --bg-blue: #255EE9;
     --bg-grey: #e5e3e3;
     --bg-dark: #23272A;
+    --bg-violet: #7289DA; 
 }
 
 /* reset */
@@ -74,12 +75,56 @@ ul {
     width: 60%;
 }
 
+.image-big {
+    justify-content: center;
+}
+
 .content {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+/* h2 {
+    background-image: url("../img/stars.svg");
+    background-size: auto;
+} */
+
+p {
+    color: var(--bg-dark);
+    font-size: 23px;
+    margin-top: 35px;
+}
+
+#section6 {
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#button-white {
+    background-color: white;
+    color: var(--bg-dark);
+    border-color: transparent;
+}
+
+#button-blue {
+    background-color: var(--bg-violet);
+    color: white;
+    border-color: transparent;
 }
 
 /* footer */
