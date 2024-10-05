@@ -18,9 +18,10 @@ body {
     font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
-.debug {
+/* .debug {
     border: 1px solid #4fef8c;
 }
+*/
 
 .bg-blue {
     background-color: var(--bg-blue);
@@ -44,19 +45,21 @@ body {
 
 header {
     background-color: var(--bg-blue);
+    padding: 6px 10px;
+    color: white; 
 }
 
-header ul li {
-    padding: 6px 10px;
-}
+/* header ul li {
+    justify-content: space-between;
+}*/
 
 ul {
     list-style: none;
 }
 
-li {
+/* li {
     display: flex;
-}
+} */
 
 /* main */
 .d-flex {
@@ -82,6 +85,16 @@ li {
 /* footer */
 
 footer {
+    padding: 6px 10px;
     background-color: var(--bg-dark);
     color: white;
+
+}
+
+.footer-top {
+
+}
+
+.footer-bottom {
+    border-top: 0.8px solid var(--bg-grey);
 }
