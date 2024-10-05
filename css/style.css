@@ -84,11 +84,14 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+section {
+    padding: 80px;
 }
 
 h1 {
@@ -140,6 +143,13 @@ footer {
 
 }
 
+#text-violet {
+    color: var(--bg-violet);
+}
+
+}
+
 .footer-bottom {
     border-top: 0.8px solid var(--bg-grey);
 }
+
